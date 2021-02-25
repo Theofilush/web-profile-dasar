@@ -1,0 +1,291 @@
+ *{
+   margin:0px; padding: 0px;
+   font-family: 'Noto Sans',sans-serif; font-weight: normal;
+   max-width: 100% !important;
+ }
+
+ a{
+   text-decoration: none;
+ }
+
+ li{
+   list-style: none;
+ }
+
+ img{
+   max-width: 100%; max-height: 100%;
+ }
+
+/*-- dashboard awal--*/
+header{
+  background: url('../image/bg-desk.jpg') no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  -moz-background-size: cover;
+  height: 650px;
+  /*padding-top: 20px;*/
+  /*max-width: 1200px;*/
+  margin: 0 auto;
+  padding: 20px 0px;
+  flex-grow: 1;
+}
+
+nav{
+	position: relative;
+	top: -20px;
+	background-color: #a7c5eb;
+    height: 100px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+#nav-icon{
+  display: none;
+}
+
+
+#logo{
+	width: 25%;
+	float: left;
+}
+
+#logo img{
+	width: 100px;
+    height: auto;
+    margin-left: 8vw; 
+}
+
+#menu-nav{
+	width: 75%;
+	float: left;
+}
+
+#menu-nav ul{
+	float: right;
+	padding: 15px;
+}
+
+#menu-nav li{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    margin:auto 10px;
+}
+
+
+#button-signup{
+  background-color: #e7e7e7; 
+  color: black;
+  border-radius: 50%;
+  border: none;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#button-signup:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+#box-dashboard{
+	/*width: 960px; */
+	margin:10% auto; 
+	font-size: 20px;
+	padding: 60px;
+	background-color: #4a47a3; 
+	opacity:0.8; 
+	text-align: center;
+}
+.btn-pelajari{
+	opacity: 1;
+	padding: 20px;
+	color: white;
+    background-color: #000;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: .9rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+#isi-box-dash{
+	color: white;
+	margin-bottom: 30px;
+	font-size: 1.5em;
+}
+
+#kedua{
+	background-color: #709fb0;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h2{
+	font-size: 40px;
+    padding: 30px 0 45px 0;
+    
+    margin: 0 auto;
+}
+/*kedua*/
+.card{
+	background-color: #fff;
+	color: #000;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 30px;
+   margin-top: 20px;
+   width: 23%;
+   float: left;
+   margin: 10px 0px;
+   height: 610px;
+}
+.card-tengah{
+	margin:10px 50px;
+}
+
+.card h2{
+	font-size: 1.7em;
+	padding: 10px 0 15px 0;
+}
+
+.klear{
+  clear:both;
+}
+
+.konten-kedua{
+    width: 960px;
+    margin: 0 auto;
+}
+.konten-kedua h2{
+    text-align: center;
+}
+
+.btn-baca-selengkapnya{
+	box-shadow: 0 0 2px rgb(0 0 0 / 20%);
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(32, 171, 226, 0.658);
+}
+
+
+/*ketiga*/
+#ketiga{
+
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+input[type="submit"]{
+	margin-top: 20px;
+	background-color: #709fb0;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    line-height: 0px;
+}
+
+.kolom_1 input, .kolom_1 textarea {
+	text-align: left;
+	    display: block;
+	padding-left: 10px;
+    width: 95%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    border: 2px solid #709fb0;
+}
+
+.kolom_1 textarea {
+	height: 130px;
+}
+
+footer{
+	background-color: #413c69;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:600px) {
+	  #menu-nav .konten{
+	    max-height: 0;
+	    overflow: hidden;
+	    background-color: #a7c5eb;
+	  }
+
+      #nav-icon{
+	    display: block;
+	    width: 50px;
+	    height: auto;
+	    position: absolute;
+	    right: 20px;
+	    top:30px;
+	  }
+	#logo{
+		width: 100%;
+		float: left;
+	}
+	#menu-nav ul{
+		display: block;
+		width: 100%;
+		float: none;
+	    margin: 0;
+	    padding: 0;
+	    position: relative;
+	    top: -20px;
+	    z-index: 1;
+	}
+
+	#menu-nav li{
+	    display: block;
+	    text-align: center;
+	    color: white;
+	    margin:auto 10px;
+	    padding: 20px
+	}
+
+	  .menu-open{
+	    max-height: 100% !important;
+	  }
+	  #menu-nav{
+	  	width: 100%;
+	  	float: none;
+	    height: auto;
+	    font-size: 15px;
+	  }
+
+	  #isi-box-dash{
+	  	font-size: 0.8em;
+	  }
+
+}
+
+@media only screen and (max-width:1000px) {
+	.konten-kedua{
+		width: 600px;
+	}
+	.card{
+		width: 85%;
+		height: auto;
+	}
+	.card-tengah{
+		margin: auto;
+	}
+}
+
+
+
